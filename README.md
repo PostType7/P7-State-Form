@@ -63,4 +63,7 @@ return (
 #NPM
 https://www.npmjs.com/package/@dadmor/p7-state-form
 
+module created by:
+https://www.freecodecamp.org/news/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78/
+
 
