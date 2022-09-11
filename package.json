@@ -1,0 +1,15 @@
+{
+"name": "@dadmor/p7-state-form",
+"version": "1.0.1",
+"description": "Ultra light form helper based on pure react methods",
+ "license": "MIT",
+ "repository": "PostType7/P7-State-Form",
+ "main": "P7StateForm.ts",
+ "keywords": [
+    "form",
+    "npm",
+    "package",
+    "react",
+    "state"
+  ]
+}
