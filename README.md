@@ -1,9 +1,10 @@
 # P7-State-Form
 Ultra light typescript form helper based on pure react methods (~0.1Kb)
 
-# Instal
+# Install
 
 `yarn add @dadmor/p7-state-form`
+`npm install @dadmor/p7-state-form`
 
 # Basic usage 
 
