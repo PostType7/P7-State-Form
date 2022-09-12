@@ -5,7 +5,7 @@ Ultra light typescript form helper based on pure react methods (~0.1Kb)
 
 `yarn add @dadmor/p7-state-form`
 
-# Usage 
+# Basic usage 
 
 InputComponent.tsx
 ```js
@@ -60,8 +60,11 @@ return (
 )
 ```
 
-*Sandbox example of this code:
-`https://codesandbox.io/s/p7-state-form-basic-example-bnjknw?file=/src/App.js`
+# More examples (codesandbox)
+
+* [Basic usage](https://codesandbox.io/s/p7-state-form-basic-example-bnjknw?file=/src/App.js)
+
+
 
 # TODO
 
