@@ -63,7 +63,7 @@ return (
 
 # More examples (codesandbox)
 
-* [Basic usage](https://codesandbox.io/s/p7-state-form-basic-example-bnjknw?file=/src/App.js)
+* [Basic usage (without TypeScript)](https://codesandbox.io/s/p7-state-form-basic-example-bnjknw?file=/src/App.js)
 
 
 
