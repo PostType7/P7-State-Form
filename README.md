@@ -8,8 +8,8 @@ Ultra light form helper based on pure react methods (0.1Kb)
 # Usage 
 
 InputComponent.tsx
-```
-import { formGet, formSet } from "p7-state-form";
+```js
+import { formGet, formSet } from "@dadmor/p7-state-form";
 interface Props {
   form?: any;
   type?: string;
@@ -31,7 +31,7 @@ export const InputComponent: React.FC<Props> = ({
 
 Page.tsx
 
-```
+```js
 interface FormDataType {
     identifier: string;
     password: string;
