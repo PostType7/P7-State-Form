@@ -12,7 +12,7 @@ InputComponent.tsx
 ```js
 import { formGet, formSet } from "@dadmor/p7-state-form";
 interface Props {
-  form?: any;
+  form?: any[];
   type?: string;
 }
 export const InputComponent: React.FC<Props> = ({
