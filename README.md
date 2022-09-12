@@ -3,7 +3,7 @@ Ultra light form helper based on pure react methods (0.1Kb)
 
 # Instal
 
-`yarn add p7-state-form`
+`yarn add @dadmor/p7-state-form`
 
 # Usage 
 
@@ -59,6 +59,10 @@ return (
     </form>
 )
 ```
+
+#TODO
+
+- [ ] (Extend to recursive form data)
 
 #NPM
 https://www.npmjs.com/package/@dadmor/p7-state-form
