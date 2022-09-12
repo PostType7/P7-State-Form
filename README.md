@@ -60,14 +60,16 @@ return (
 )
 ```
 
-#TODO
+# TODO
 
 - [ ] (Extend to recursive form data)
 
-#NPM
+# NPM
 https://www.npmjs.com/package/@dadmor/p7-state-form
 
-module created by:
+#Footnotes
+
+ - NPM tutorail:
 https://www.freecodecamp.org/news/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78/
 
 
