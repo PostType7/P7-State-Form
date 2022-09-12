@@ -11,5 +11,8 @@
     "package",
     "react",
     "state"
-  ]
+  ],
+  "dependencies": {
+    "@types/react": "^18.0.19"
+  }
 }
