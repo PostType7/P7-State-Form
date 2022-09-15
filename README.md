@@ -10,7 +10,7 @@ Ultra light typescript form helper, based on pure react methods (~0.4Kb core lib
 
 InputComponent.tsx
 ```js
-import { formGet, formSet } from "@dadmor/p7-state-form";
+import { formGet, formSet, fieldKey } from "@dadmor/p7-state-form";
 interface Props {
   form?: any[];
   type?: string;
@@ -21,7 +21,7 @@ export const InputComponent: React.FC<Props> = ({
 }) => {
   return (
       <input
-        id={form[0]}
+        id={fieldKey(form)}
         onChange={(e) => formSet(form, e )}
         defaultValue={formGet(form)}
         type={type}
@@ -30,7 +30,7 @@ export const InputComponent: React.FC<Props> = ({
 };
 ```
 
-Page.tsx
+LoginPage.tsx
 
 ```js
 interface FormDataType {
@@ -54,11 +54,48 @@ return (
         <label>Identifier</label>
         <InputComponent form={["identifier", formData, setFormData]} />
 
-        <label>Identifier</label>
-        <InputComponent form={["password", formData, setFormData]} />
+        <label>Password</label>
+        <InputComponent form={["password", formData, setFormData]} type="password"/>
 
     </form>
 )
+```
+
+DeepDataExample.tsx
+
+```js
+
+interface FormDataType {
+    body: {
+      title: string
+      content: string
+    };
+}
+
+const [formData, setFormData] = useState<FormDataType>({
+  body: {
+    title: "",
+    content: "",
+  };
+});
+
+const onSubmitHandler = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    console.log('formData', formData)
+}
+
+return (
+    <form onSubmit={onSubmitHandler}>
+
+        <label>Title</label>
+        <InputComponent form={["body.title", formData, setFormData]} />
+
+        <label>Content</label>
+        <InputComponent form={["body.content", formData, setFormData]}/>
+
+    </form>
+)
+
 ```
 
 # More examples (codesandbox)
