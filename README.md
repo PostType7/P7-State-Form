@@ -1,5 +1,5 @@
 # P7-State-Form
-Ultra light typescript form helper, based on pure react methods (~0.4Kb core lib file)
+Ultra light typescript form helper, based on pure react methods (~0.6Kb core lib file)
 
 # Install
 
