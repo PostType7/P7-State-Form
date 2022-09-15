@@ -22,8 +22,15 @@ export const formSet = (
 };
 
 export const formGet = (form: any[]) => {
+  /* deep mode */
   return deepGet(form[1], form[0]);
+  /* flat mode */
+  /* return form[1][form[0]]; */
 };
+
+/* 
+  deep mode methods 
+*/
 
 export const deepSet = (obj: any, path: string, val: any) => {
   const keys = path.split("."),
