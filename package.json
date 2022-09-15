@@ -6,13 +6,16 @@
   "repository": "PostType7/P7-State-Form",
   "main": "P7StateForm.ts",
   "keywords": [
+    "light",
+    "less 1 kb",
     "form",
     "npm",
     "package",
     "react",
-    "state"
+    "state",
+    "typescript"
   ],
   "devDependencies": {
-    "@types/react": "^18.0.19"
+    "@types/react": "^18.2.0"
   }
 }

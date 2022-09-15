@@ -69,7 +69,7 @@ return (
 
 # TODO
 
-- [ ] (Extend to recursive form data)
+- [x] (Extend to recursive form data)
 
 # NPM
 https://www.npmjs.com/package/@dadmor/p7-state-form
